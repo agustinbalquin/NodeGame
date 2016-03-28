@@ -1,10 +1,12 @@
 // game.js file
+// Creating Quintus engine
 var Q = Quintus({audioSupported: [ 'wav','mp3' ]})
       .include('Sprites, Scenes, Input, 2D, Anim, Touch, UI, Audio')
       .setup({ maximize: true })
       .enableSound()
       .controls().touch();
- 
+
+// gravity diabled
 Q.gravityY = 0;
  
 var objectFiles = [
