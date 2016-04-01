@@ -8,7 +8,8 @@ var Q = Quintus({audioSupported: [ 'wav','mp3' ]})
 
 // gravity diabled
 Q.gravityY = 0;
- 
+
+// sourcing our Quintus player class
 var objectFiles = [
   './src/player'
 ];
